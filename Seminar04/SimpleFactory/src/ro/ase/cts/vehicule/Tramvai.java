@@ -1,0 +1,14 @@
+package ro.ase.cts.vehicule;
+
+public class Tramvai extends  MijlocTransport{
+
+
+    public Tramvai(String marca, int linia) {
+        super(marca, linia);
+    }
+
+    @Override
+    public void afisareDescriere() {
+        System.out.println("Tramvai" + super.toString());
+    }
+}
